@@ -11,12 +11,12 @@ RevHounds is a boutique hospitality revenue management consultancy. The brand is
 
 ## Logo
 
-- **Files**: `revhounds-logo.svg` (preferred), `revhounds-logo.png` (fallback)
+- **Files**: `RevHounds.svg` (preferred), `RevHounds.png` (fallback), 'RevHounds-white.png' (used on dark backgrounds)
 - **Minimum size**: 120px wide
 - **Clear space**: equal to the cap-height of the wordmark on all four sides
 - **Never**: recolor, rotate, add drop shadows, place on a busy background without a dark backing, or stretch
-- **On dark backgrounds**: use the SVG/PNG as-is (logo was designed for dark use)
-- **On light backgrounds**: use with a dark container behind it
+- **On dark backgrounds**: use with a light container behind it
+- **On light backgrounds**: use the SVG/PNG as-is (logo was designed for light use)
 
 ---
 
@@ -154,8 +154,9 @@ Pattern:
 /
 ├── index.html          ← single page, all sections
 ├── style.css           ← all styles
-├── revhounds-logo.svg  ← preferred logo
-├── revhounds-logo.png  ← fallback
+├── RevHounds.svg  ← preferred logo
+├── RevHounds.png  ← fallback
+├── RevHounds-whitw.png  ← use on dark backgrounds
 └── assets/             ← any additional images
 ```
 
