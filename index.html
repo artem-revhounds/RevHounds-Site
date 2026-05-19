@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RevHounds — Boutique Hotel Revenue Management</title>
+  <meta name="description" content="RevHounds is a boutique revenue management consultancy delivering relentless results for independent and luxury hotels. Strategy, systems, distribution." />
+  <meta name="keywords" content="hotel revenue management, boutique hotel consulting, revenue strategy, PMS implementation, distribution services" />
+
+  <!-- OG / Social -->
+  <meta property="og:title" content="RevHounds — Relentless Pursuit of Revenue" />
+  <meta property="og:description" content="Boutique hotel revenue management consulting. Strategy, systems, and distribution services for independent and luxury properties." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.revhounds.com" />
+  <meta property="og:site_name" content="RevHounds" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.revhounds.com" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="revhounds-logo.png" />
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a href="#home" class="nav-logo" aria-label="RevHounds — home">
+      <img src="revhounds-logo.png" alt="RevHounds logo" />
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<nav class="nav-mobile" id="mobile-menu" aria-label="Mobile navigation">
+  <a href="#home" onclick="closeMobileMenu()">Home</a>
+  <a href="#services" onclick="closeMobileMenu()">Services</a>
+  <a href="#about" onclick="closeMobileMenu()">About</a>
+  <a href="#contact" onclick="closeMobileMenu()">Get in Touch</a>
+</nav>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="home" aria-labelledby="hero-heading">
+  <div class="hero-bg" role="presentation"></div>
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-tag">Boutique Hotel Revenue Management</p>
+      <h1 class="hero-headline" id="hero-heading">
+        Relentless<br /><em>Pursuit</em><br />of Revenue
+      </h1>
+      <p class="hero-sub">
+        Personalized revenue strategy, systems implementation, and distribution expertise for independent and luxury hotel properties.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get a Free Consultation</a>
+        <a href="#services" class="btn btn-ghost">Our Services</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICES
+     ============================================================ -->
+<section id="services" aria-labelledby="services-heading">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <div class="eyebrow">Our Expertise</div>
+      <h2 class="section-heading" id="services-heading">RevHounds Services</h2>
+      <p class="section-sub">
+        With more than 20 years of combined experience, we offer a truly boutique approach for hotels of all classes to take their revenue strategies to the next level.
+      </p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card reveal reveal-delay-1">
+        <h3 class="service-card-title">Revenue Management</h3>
+        <ul class="service-list" role="list">
+          <li>Task Force Revenue Management</li>
+          <li>Booking Pace Analysis</li>
+          <li>Competitive Price Review</li>
+          <li>Group Pricing Analysis</li>
+          <li>Digital Media Strategy</li>
+          <li>Renovation Schedule Optimization</li>
+          <li>Sales and Revenue Training</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <h3 class="service-card-title">Distribution Services</h3>
+        <ul class="service-list" role="list">
+          <li>Rate Loading</li>
+          <li>GDS Rate Mapping</li>
+          <li>Third Party Management</li>
+          <li>Rate Audits</li>
+          <li>Website Optimization</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <h3 class="service-card-title">Systems Implementation</h3>
+        <ul class="service-list" role="list">
+          <li>Revenue System Implementation</li>
+          <li>New PMS &amp; CRS Installations</li>
+          <li>Analytics Reporting Development</li>
+          <li>Business Intelligence Activation</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Systems Experience -->
+    <div class="systems-block reveal">
+      <h3 class="systems-block-title">Systems &amp; Platform Experience</h3>
+      <div class="systems-grid">
+        <div>
+          <p class="systems-category-title">Property Management</p>
+          <p class="systems-items">Opera &amp; Opera Cloud, Epitome, Galaxy, Lightspeed, Maestro, ResNexus, Mews</p>
+        </div>
+        <div>
+          <p class="systems-category-title">Revenue Management</p>
+          <p class="systems-items">IDeaS, Duetto, Rainmaker</p>
+        </div>
+        <div>
+          <p class="systems-category-title">Central Reservations</p>
+          <p class="systems-items">Synxis, Trust, TravelClick iHotelier</p>
+        </div>
+        <div>
+          <p class="systems-category-title">Business Intelligence</p>
+          <p class="systems-items">RevIntel, Spider, TravelClick Demand360 / Rate360 / Agency360, OTA Insight, Sabre Destination Insights, RevCaster</p>
+        </div>
+        <div>
+          <p class="systems-category-title">Sales Systems</p>
+          <p class="systems-items">Delphi, Delphi.fdc, SalesPro</p>
+        </div>
+        <div>
+          <p class="systems-category-title">Accounting</p>
+          <p class="systems-items">SAP, M3, Data Plus, Sage, Lawson</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="container">
+
+    <div class="about-intro">
+      <div class="about-intro-text reveal">
+        <div class="eyebrow">Who We Are</div>
+        <h2 class="section-heading" id="about-heading">Committed to Results</h2>
+        <p>
+          At RevHounds, our team seeks to partner with hotel properties looking for a personalized revenue strategy. With experience in hotel transitions, systems implementation, and total property revenue management, RevHounds will analyze all facets of your business to create and implement streamlined processes that drive improved financial results.
+        </p>
+        <p style="margin-top: 16px;">
+          Our team is hands-on and ready to develop strategies for not only surviving, but thriving in an increasingly complex hospitality environment. <a href="#contact" style="color: var(--color-amber);">Give us a call</a> today to set up your first consultation.
+        </p>
+      </div>
+      <div class="about-stat-block reveal reveal-delay-1">
+        <div class="about-stat">
+          <div class="about-stat-number">20+</div>
+          <div class="about-stat-label">Years combined experience</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-number">15+</div>
+          <div class="about-stat-label">Systems platforms</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-number">3</div>
+          <div class="about-stat-label">Service pillars</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-number">2</div>
+          <div class="about-stat-label">Expert consultants</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="eyebrow reveal" style="justify-content: center; margin-bottom: 32px;">The Team</div>
+    <div class="team-grid">
+
+      <article class="team-card reveal reveal-delay-1">
+        <!-- Replace src with Emily's actual photo path, e.g. assets/emily-garcia.jpg -->
+        <img
+          class="team-card-photo"
+          src="assets/emily-garcia.jpg"
+          alt="Emily Garcia, Co-founder"
+          loading="lazy"
+        />
+        <div class="team-card-info">
+          <h3 class="team-card-name">Emily Garcia</h3>
+          <p class="team-card-title">Co-founder &amp; Revenue Consultant</p>
+          <p class="team-card-bio">Emily began her career in hotel operations with Starwood Hotels &amp; Resorts before transitioning into revenue management with Kimpton Hotels in San Francisco. She holds a BS in Hospitality Administration from Boston University and an MBA from San Diego State University.</p>
+        </div>
+      </article>
+
+      <article class="team-card reveal reveal-delay-2">
+        <!-- Replace src with Artem's actual photo path, e.g. assets/artem-lukinov.jpg -->
+        <img
+          class="team-card-photo"
+          src="assets/artem-lukinov.jpg"
+          alt="Artem Lukinov, Co-founder"
+          loading="lazy"
+        />
+        <div class="team-card-info">
+          <h3 class="team-card-name">Artem Lukinov</h3>
+          <p class="team-card-title">Co-founder &amp; Revenue Consultant</p>
+          <p class="team-card-bio">Artem started his career in hotel operations with Kimpton Hotels and found his passion for revenue optimization shortly after. He has guided multiple properties through brand transitions, construction projects, and class upgrades, and is known for his balanced approach to the art and science of revenue management.</p>
+        </div>
+      </article>
+
+      <article class="team-card reveal reveal-delay-3">
+        <img
+          class="team-card-photo"
+          src="assets/pinto.png"
+          alt="Pinto, Co-Chief Executive Hound"
+          loading="lazy"
+        />
+        <div class="team-card-info">
+          <h3 class="team-card-name">Pinto</h3>
+          <p class="team-card-title">Co-Chief Executive Hound</p>
+          <p class="team-card-bio">Pinto has been an essential part of the industry for more than 14 dog years. He is an expert in pursuing any possibility for additional gains and a vital part of day-to-day operations at RevHounds.</p>
+        </div>
+      </article>
+
+      <article class="team-card reveal reveal-delay-1">
+        <img
+          class="team-card-photo"
+          src="assets/bentley.jpg"
+          loading="lazy"
+        />
+        <div class="team-card-info">
+          <h3 class="team-card-name">Bentley</h3>
+          <p class="team-card-title">Co-Chief Executive Hound</p>
+          <p class="team-card-bio">Bentley brings more than 10 years of experience in sniffing out all available opportunities. Together with Pinto, he is responsible for all parts of RevHounds operations — and morale.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="contact-inner">
+
+      <div class="reveal">
+        <div class="eyebrow">Let's Talk</div>
+        <h2 class="contact-info-heading" id="contact-heading">
+          Start the<br /><em style="font-family: var(--font-display); font-style: italic; color: var(--color-amber);">Conversation</em>
+        </h2>
+        <p class="contact-info-sub">
+          We offer a complimentary introductory consultation — no obligation. Let's explore how RevHounds can elevate your property's revenue performance.
+        </p>
+        <div class="contact-detail">
+          <div class="contact-icon" aria-hidden="true">✉</div>
+          <a href="mailto:contactus@revhounds.com">contactus@revhounds.com</a>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon" aria-hidden="true">☎</div>
+          <a href="tel:9252899291">925-289-9291</a>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <!-- 
+          Formspree Setup:
+          1. Go to https://formspree.io and sign up free
+          2. Click "+ New Form", name it "RevHounds Contact", set email to contactus@revhounds.com
+          3. Copy the endpoint URL — looks like https://formspree.io/f/abcdefgh
+          4. Replace YOUR_FORMSPREE_ENDPOINT below with that full URL
+        -->
+        <form class="contact-form" id="contact-form" novalidate>
+          <input type="hidden" name="_subject" value="New inquiry from RevHounds.com" />
+          <!-- Honeypot spam protection -->
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Name <span aria-hidden="true">*</span></label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email <span aria-hidden="true">*</span></label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="jane@yourhotel.com" required autocomplete="email" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="phone">Phone</label>
+              <input class="form-input" type="tel" id="phone" name="phone" placeholder="(415) 555-0100" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="hotel">Hotel / Property</label>
+              <input class="form-input" type="text" id="hotel" name="hotel" placeholder="The Grand Hotel" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">How can we help? <span aria-hidden="true">*</span></label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Tell us about your property and what you're looking to improve..." required></textarea>
+          </div>
+
+          <div id="form-message" class="form-message" role="alert" aria-live="polite"></div>
+
+          <button type="submit" class="btn btn-primary form-submit" id="submit-btn">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="#home" class="footer-logo" aria-label="RevHounds — back to top">
+      <img src="revhounds-logo.png" alt="RevHounds" />
+    </a>
+    <p class="footer-copy">©2026 RevHounds LLC. All rights reserved.</p>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- ============================================================
+     JAVASCRIPT
+     ============================================================ -->
+<script>
+  /* --- Mobile menu --- */
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', isOpen);
+  });
+
+  function closeMobileMenu() {
+    mobileMenu.classList.remove('open');
+    hamburger.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+  }
+
+  /* --- Active nav link on scroll --- */
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+
+  const navObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(link => {
+          link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { threshold: 0.4 });
+
+  sections.forEach(s => navObserver.observe(s));
+
+  /* --- Scroll reveal --- */
+  const revealEls = document.querySelectorAll('.reveal');
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  revealEls.forEach(el => revealObserver.observe(el));
+
+  /* --- Contact form (Formspree) --- */
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xvzygwgl'; // e.g. https://formspree.io/f/abcdefgh
+
+  const form = document.getElementById('contact-form');
+  const submitBtn = document.getElementById('submit-btn');
+  const formMessage = document.getElementById('form-message');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending…';
+    formMessage.className = 'form-message';
+    formMessage.textContent = '';
+
+    try {
+      const res = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      });
+      const json = await res.json();
+      if (res.ok) {
+        formMessage.className = 'form-message success';
+        formMessage.textContent = 'Thank you — we\'ll be in touch within one business day.';
+        form.reset();
+      } else {
+        const errors = json.errors ? json.errors.map(e => e.message).join(', ') : 'Submission failed';
+        throw new Error(errors);
+      }
+    } catch (err) {
+      formMessage.className = 'form-message error';
+      formMessage.textContent = 'Something went wrong. Please email us directly at contactus@revhounds.com';
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Message';
+    }
+  });
+</script>
+
+</body>
+</html>
