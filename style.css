@@ -143,6 +143,15 @@ ul { list-style: none; }
   color: #0d0d0d !important;
 }
 
+.nav-cta-solid {
+  background: var(--color-amber);
+  color: #0d0d0d !important;
+}
+.nav-cta-solid:hover {
+  background: var(--color-amber-light) !important;
+  border-color: var(--color-amber-light);
+}
+
 /* Hamburger */
 .nav-hamburger {
   display: none;
