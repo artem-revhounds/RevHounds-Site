@@ -1,0 +1,11 @@
+# Pages of the portal that are not real files: open the app (portal/app.html is a copy of index.html made by the publish step; pointing at index.html would make the server redirect and lose the page) and let it show the page (status 200 = rewrite, the address stays the same).
+# Copied to the root of the website repository (RevHounds-Site). When you add a route in src/App.tsx, add a line here too
+# (tests/portalHosting.test.ts fails if one is missing). Do not use a wildcard: it would also catch the portal's own files.
+/portal/login /portal/app 200
+/portal/upload /portal/app 200
+/portal/upload-check /portal/app 200
+/portal/admin /portal/app 200
+/portal/budget /portal/app 200
+/portal/summary /portal/app 200
+/portal/monthly /portal/app 200
+/portal/email /portal/app 200
