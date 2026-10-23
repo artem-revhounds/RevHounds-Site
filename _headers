@@ -1,6 +1,6 @@
 # Security headers for the portal, which lives at https://revhounds.com/portal/.
 # This file is copied to the root of the website repository (RevHounds-Site). It only matches /portal/*, so the main site is untouched.
-# Keep the policy the same as netlify.toml (tests/portalHosting.test.ts checks it). Do not add 'unsafe-inline' to script-src.
+# This is the one place the policy lives (tests/headers.test.ts checks it). Do not add 'unsafe-inline' to script-src.
 /portal/*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
