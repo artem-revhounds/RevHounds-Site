@@ -8,4 +8,5 @@
 /portal/budget /portal/app 200
 /portal/summary /portal/app 200
 /portal/monthly /portal/app 200
+/portal/year-over-year /portal/app 200
 /portal/email /portal/app 200
